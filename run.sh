@@ -1,1 +1,1 @@
-sudo docker run --rm -d -p 53:53/udp --name dnsmasq docker-dnsmasq
+docker run -d --restart=always -p 53:53/udp --name dnsmasq docker-dnsmasq

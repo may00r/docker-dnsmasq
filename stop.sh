@@ -1,1 +1,1 @@
-sudo docker stop dnsmasq
+docker stop dnsmasq
